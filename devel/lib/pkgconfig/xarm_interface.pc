@@ -1,0 +1,8 @@
+prefix=/home/won/xarm_ws/devel
+
+Name: xarm_interface
+Description: Description of xarm_interface
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
