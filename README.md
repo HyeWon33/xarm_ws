@@ -56,3 +56,31 @@ $ source devel/setup.bash
 $ rosrun xarm_interface xarm_move
 ```
 
+---------------------------------------------------------------------------------------------------------------------
+## 1. 셋팅
+
+```
+$ cd ~/catkin_ws/src
+$ git clone https://github.com/xArm-Developer/xarm_ros.git --recursive
+```
+
+```
+$ cd ~/catkin_ws/src/xarm_ros
+$ git pull
+$ git submodule sync
+$ git submodule update --init --remote
+```
+
+```
+$ rosdep update
+$ rosdep check --from-paths . --ignore-src --rosdistro melodic
+```
+
+## 2.bringup
+```
+$ caktin_make
+$ source devel/setup.bash
+$ roslaunch xarm_bringup xarm5_server.launch robot_ip:=192.168.1.204
+
+$ source devel/setup.bash
+$ roslaunch xarm5_gripper_moveit_config realMove_exec.launch robot_ip:=192.168.1.204
