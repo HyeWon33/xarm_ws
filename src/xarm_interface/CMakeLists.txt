@@ -8,6 +8,8 @@ find_package(catkin REQUIRED COMPONENTS
   moveit_ros_planning_interface
   tf2
   tf2_geometry_msgs
+  moveit_ros_planning_interface 
+  moveit_ros_move_group
 )
 
 catkin_package(
