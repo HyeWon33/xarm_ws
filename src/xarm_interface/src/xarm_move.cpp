@@ -113,7 +113,7 @@ int main(int argc, char **argv){
 
 
 
-//3.
+//4.
 //home으로 이동하고 출력하고 x, z이동
 
 /*
@@ -177,7 +177,7 @@ int main(int argc, char **argv){
 
 
 //tf
-//4.
+//5.
 //home으로 이동하고 출력하고 x, z이동
 
 /*
