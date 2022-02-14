@@ -65,10 +65,11 @@ int main(int argc, char **argv){
 //3.
 //home으로 이동하고 출력하고 joint4 이동
 
-/*
+
 #include <ros/ros.h>
 #include <iostream>
-#include <moveit/move_group_interface.h>
+// #include <moveit/move_group_interface.h>
+#include <moveit/move_group_interface/move_group_interface.h>
 
 using namespace std;
 
@@ -94,18 +95,21 @@ int main(int argc, char **argv){
     cout << endl;
     
     currentJointValue[3] -= 3.141592/2; //0부터 시작하니까 j4야 라디안 값
-    arm.setJointvalueTarget(currentJointValue);
+    // arm.setJointvalueTarget(currentJointValue);
+    arm.setJointValueTarget(currentJointValue);
     arm.move();
     sleep(1);
 
     currentJointValue[3] += 3.141592/2; //0부터 시작하니까 j4야 라디안 값
-    arm.setJointvalueTarget(currentJointValue);
+    // arm.setJointvalueTarget(currentJointValue);
+    arm.setJointValueTarget(currentJointValue);
+
     arm.move();
     sleep(1);
 
     return 0;
 }
-*/
+
 
 
 
