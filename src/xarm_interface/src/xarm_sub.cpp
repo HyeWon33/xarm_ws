@@ -1,15 +1,39 @@
 #include <ros/ros.h>
 #include <iostream>
+#include <std_msgs/Int32.h>
 #include <moveit/move_group_interface/move_group_interface.h>
 
 using namespace std;
 
+void numnum(const std_msgs::Int32& msgs){
+
+    cout << "1" << endl;
+}
+
 int main(int argc, char **argv){
-    ros::init(argc, argv, "xarm_move");
+    ros::init(argc, argv, "xarm_sub");
+
+    ros::NodeHandle nh;
+
     ros::AsyncSpinner spinner(1);
     spinner.start();
+    
+    
+    
+    
+    int a = 0;
+
+    if(a = 0){
+        ros::Subscriber sub_num = nh.subscribe("num", 1, numnum);
+        a++;
+    }
+
+
+
 
     moveit::planning_interface::MoveGroupInterface arm("xarm5"); //moveitsetupassistant 
+
+    moveit::planning_interface::MoveGroupInterface gripper("xarm_gripper");
 
     arm.setGoalJointTolerance(0.001);
     arm.setMaxAccelerationScalingFactor(0.2);
@@ -17,24 +41,49 @@ int main(int argc, char **argv){
 
     arm.setNamedTarget("home"); //moveitsetupassistant 
     arm.move(); //robot move
+    cout << "home" << endl;
     sleep(1);
 
-    vector<double> currentJointValue=arm.getCurrentJointValues();
-    for(int i = 0; i < currentJointValue.size(); i++){
-        cout << currentJointValue[i] << ", ";
-    }
-    cout << endl;
+    vector<double> currentJointValue = arm.getCurrentJointValues();
+    vector<double> currentJointValue2 = gripper.getCurrentJointValues();
     
-    currentJointValue[3] -= 3.141592/2; //0부터 시작하니까 j4야 라디안 값
+
+    // for(int i = 0; i < currentJointValue.size(); i++){
+    //     cout << currentJointValue[i] << ", ";
+    // }
+    // cout << endl;
+    
+    // currentJointValue2[0] = 100;
+    // gripper.setJointValueTarget(currentJointValue2);
+    // gripper.move();
+    // sleep(1);
+
+    currentJointValue[0] -= 0.174533;
     arm.setJointValueTarget(currentJointValue);
     arm.move();
     sleep(1);
 
-    currentJointValue[3] += 3.141592/2; //0부터 시작하니까 j4야 라디안 값
+    currentJointValue[1] -= 0.174533;
     arm.setJointValueTarget(currentJointValue);
-
     arm.move();
     sleep(1);
+
+    currentJointValue[2] -= 0.174533;
+    arm.setJointValueTarget(currentJointValue);
+    arm.move();
+    sleep(1);
+
+    currentJointValue[3] -= 0.174533;
+    arm.setJointValueTarget(currentJointValue);
+    arm.move();
+    sleep(1);
+
+    currentJointValue[4] -= 0.174533;
+    arm.setJointValueTarget(currentJointValue);
+    arm.move();
+    sleep(1);
+
+    cout << "end" << endl;
 
     return 0;
 }
