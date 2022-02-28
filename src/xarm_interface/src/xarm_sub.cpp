@@ -53,35 +53,42 @@ int main(int argc, char **argv){
     // }
     // cout << endl;
     
-    // currentJointValue2[0] = 100;
-    // gripper.setJointValueTarget(currentJointValue2);
-    // gripper.move();
+    currentJointValue2[0] = 0.4;
+    cout << "gripper open" << endl;
+    gripper.setJointValueTarget(currentJointValue2);
+    gripper.move();
+    sleep(1);
+
+    currentJointValue2[0] = 0.855211;
+    cout << "gripper close" << endl;
+    gripper.setJointValueTarget(currentJointValue2);
+    gripper.move();
+    sleep(1);
+
+    // currentJointValue[0] -= 0.174533;
+    // arm.setJointValueTarget(currentJointValue);
+    // arm.move();
     // sleep(1);
 
-    currentJointValue[0] -= 0.174533;
-    arm.setJointValueTarget(currentJointValue);
-    arm.move();
-    sleep(1);
+    // currentJointValue[1] -= 0.174533;
+    // arm.setJointValueTarget(currentJointValue);
+    // arm.move();
+    // sleep(1);
 
-    currentJointValue[1] -= 0.174533;
-    arm.setJointValueTarget(currentJointValue);
-    arm.move();
-    sleep(1);
+    // currentJointValue[2] -= 0.174533;
+    // arm.setJointValueTarget(currentJointValue);
+    // arm.move();
+    // sleep(1);
 
-    currentJointValue[2] -= 0.174533;
-    arm.setJointValueTarget(currentJointValue);
-    arm.move();
-    sleep(1);
+    // currentJointValue[3] -= 0.174533;
+    // arm.setJointValueTarget(currentJointValue);
+    // arm.move();
+    // sleep(1);
 
-    currentJointValue[3] -= 0.174533;
-    arm.setJointValueTarget(currentJointValue);
-    arm.move();
-    sleep(1);
-
-    currentJointValue[4] -= 0.174533;
-    arm.setJointValueTarget(currentJointValue);
-    arm.move();
-    sleep(1);
+    // currentJointValue[4] -= 0.174533;
+    // arm.setJointValueTarget(currentJointValue);
+    // arm.move();
+    // sleep(1);
 
     cout << "end" << endl;
 
