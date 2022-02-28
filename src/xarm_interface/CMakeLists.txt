@@ -27,3 +27,8 @@ include_directories(
 add_executable(xarm_move src/xarm_move.cpp)
 target_link_libraries(xarm_move ${catkin_LIBRARIES})
 
+add_executable(xarm_sub src/xarm_sub.cpp)
+target_link_libraries(xarm_sub ${catkin_LIBRARIES})
+
+add_executable(xarm_pub src/xarm_pub.cpp)
+target_link_libraries(xarm_pub ${catkin_LIBRARIES})
