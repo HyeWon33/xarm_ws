@@ -2157,6 +2157,19 @@ xarm_gripper_generate_messages_lisp/fast:
 .PHONY : xarm_gripper_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named xarm_sub
+
+# Build rule for target.
+xarm_sub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 xarm_sub
+.PHONY : xarm_sub
+
+# fast build rule for target.
+xarm_sub/fast:
+	$(MAKE) -f xarm_interface/CMakeFiles/xarm_sub.dir/build.make xarm_interface/CMakeFiles/xarm_sub.dir/build
+.PHONY : xarm_sub/fast
+
+#=============================================================================
 # Target rules for targets named xarm_move
 
 # Build rule for target.
@@ -2519,6 +2532,19 @@ octomap_msgs_generate_messages_lisp: cmake_check_build_system
 octomap_msgs_generate_messages_lisp/fast:
 	$(MAKE) -f xarm_interface/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build.make xarm_interface/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build
 .PHONY : octomap_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named xarm_pub
+
+# Build rule for target.
+xarm_pub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 xarm_pub
+.PHONY : xarm_pub
+
+# fast build rule for target.
+xarm_pub/fast:
+	$(MAKE) -f xarm_interface/CMakeFiles/xarm_pub.dir/build.make xarm_interface/CMakeFiles/xarm_pub.dir/build
+.PHONY : xarm_pub/fast
 
 #=============================================================================
 # Target rules for targets named tf2_msgs_generate_messages_py
@@ -3154,6 +3180,7 @@ help:
 	@echo "... xarm_gripper_genpy"
 	@echo "... _xarm_gripper_generate_messages_check_deps_MoveAction"
 	@echo "... xarm_gripper_generate_messages_lisp"
+	@echo "... xarm_sub"
 	@echo "... xarm_move"
 	@echo "... moveit_ros_manipulation_gencfg"
 	@echo "... object_recognition_msgs_generate_messages_cpp"
@@ -3182,6 +3209,7 @@ help:
 	@echo "... object_recognition_msgs_generate_messages_eus"
 	@echo "... octomap_msgs_generate_messages_eus"
 	@echo "... octomap_msgs_generate_messages_lisp"
+	@echo "... xarm_pub"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... octomap_msgs_generate_messages_nodejs"

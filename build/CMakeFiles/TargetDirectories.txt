@@ -337,6 +337,7 @@
 /home/won/xarm_ws/build/xarm_interface/CMakeFiles/install.dir
 /home/won/xarm_ws/build/xarm_interface/CMakeFiles/list_install_components.dir
 /home/won/xarm_ws/build/xarm_interface/CMakeFiles/edit_cache.dir
+/home/won/xarm_ws/build/xarm_interface/CMakeFiles/xarm_sub.dir
 /home/won/xarm_ws/build/xarm_interface/CMakeFiles/xarm_move.dir
 /home/won/xarm_ws/build/xarm_interface/CMakeFiles/moveit_ros_manipulation_gencfg.dir
 /home/won/xarm_ws/build/xarm_interface/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir
@@ -368,6 +369,7 @@
 /home/won/xarm_ws/build/xarm_interface/CMakeFiles/octomap_msgs_generate_messages_eus.dir
 /home/won/xarm_ws/build/xarm_interface/CMakeFiles/octomap_msgs_generate_messages_lisp.dir
 /home/won/xarm_ws/build/xarm_interface/CMakeFiles/install/strip.dir
+/home/won/xarm_ws/build/xarm_interface/CMakeFiles/xarm_pub.dir
 /home/won/xarm_ws/build/xarm_interface/CMakeFiles/tf2_msgs_generate_messages_py.dir
 /home/won/xarm_ws/build/xarm_interface/CMakeFiles/tf2_msgs_generate_messages_lisp.dir
 /home/won/xarm_ws/build/xarm_interface/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir

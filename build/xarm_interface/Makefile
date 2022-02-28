@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+xarm_interface/CMakeFiles/xarm_sub.dir/rule:
+	cd /home/won/xarm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 xarm_interface/CMakeFiles/xarm_sub.dir/rule
+.PHONY : xarm_interface/CMakeFiles/xarm_sub.dir/rule
+
+# Convenience name for target.
+xarm_sub: xarm_interface/CMakeFiles/xarm_sub.dir/rule
+
+.PHONY : xarm_sub
+
+# fast build rule for target.
+xarm_sub/fast:
+	cd /home/won/xarm_ws/build && $(MAKE) -f xarm_interface/CMakeFiles/xarm_sub.dir/build.make xarm_interface/CMakeFiles/xarm_sub.dir/build
+.PHONY : xarm_sub/fast
+
+# Convenience name for target.
 xarm_interface/CMakeFiles/xarm_move.dir/rule:
 	cd /home/won/xarm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 xarm_interface/CMakeFiles/xarm_move.dir/rule
 .PHONY : xarm_interface/CMakeFiles/xarm_move.dir/rule
@@ -588,6 +603,21 @@ octomap_msgs_generate_messages_lisp/fast:
 .PHONY : octomap_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
+xarm_interface/CMakeFiles/xarm_pub.dir/rule:
+	cd /home/won/xarm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 xarm_interface/CMakeFiles/xarm_pub.dir/rule
+.PHONY : xarm_interface/CMakeFiles/xarm_pub.dir/rule
+
+# Convenience name for target.
+xarm_pub: xarm_interface/CMakeFiles/xarm_pub.dir/rule
+
+.PHONY : xarm_pub
+
+# fast build rule for target.
+xarm_pub/fast:
+	cd /home/won/xarm_ws/build && $(MAKE) -f xarm_interface/CMakeFiles/xarm_pub.dir/build.make xarm_interface/CMakeFiles/xarm_pub.dir/build
+.PHONY : xarm_pub/fast
+
+# Convenience name for target.
 xarm_interface/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
 	cd /home/won/xarm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 xarm_interface/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 .PHONY : xarm_interface/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
@@ -764,6 +794,60 @@ src/xarm_move.cpp.s:
 	cd /home/won/xarm_ws/build && $(MAKE) -f xarm_interface/CMakeFiles/xarm_move.dir/build.make xarm_interface/CMakeFiles/xarm_move.dir/src/xarm_move.cpp.s
 .PHONY : src/xarm_move.cpp.s
 
+src/xarm_pub.o: src/xarm_pub.cpp.o
+
+.PHONY : src/xarm_pub.o
+
+# target to build an object file
+src/xarm_pub.cpp.o:
+	cd /home/won/xarm_ws/build && $(MAKE) -f xarm_interface/CMakeFiles/xarm_pub.dir/build.make xarm_interface/CMakeFiles/xarm_pub.dir/src/xarm_pub.cpp.o
+.PHONY : src/xarm_pub.cpp.o
+
+src/xarm_pub.i: src/xarm_pub.cpp.i
+
+.PHONY : src/xarm_pub.i
+
+# target to preprocess a source file
+src/xarm_pub.cpp.i:
+	cd /home/won/xarm_ws/build && $(MAKE) -f xarm_interface/CMakeFiles/xarm_pub.dir/build.make xarm_interface/CMakeFiles/xarm_pub.dir/src/xarm_pub.cpp.i
+.PHONY : src/xarm_pub.cpp.i
+
+src/xarm_pub.s: src/xarm_pub.cpp.s
+
+.PHONY : src/xarm_pub.s
+
+# target to generate assembly for a file
+src/xarm_pub.cpp.s:
+	cd /home/won/xarm_ws/build && $(MAKE) -f xarm_interface/CMakeFiles/xarm_pub.dir/build.make xarm_interface/CMakeFiles/xarm_pub.dir/src/xarm_pub.cpp.s
+.PHONY : src/xarm_pub.cpp.s
+
+src/xarm_sub.o: src/xarm_sub.cpp.o
+
+.PHONY : src/xarm_sub.o
+
+# target to build an object file
+src/xarm_sub.cpp.o:
+	cd /home/won/xarm_ws/build && $(MAKE) -f xarm_interface/CMakeFiles/xarm_sub.dir/build.make xarm_interface/CMakeFiles/xarm_sub.dir/src/xarm_sub.cpp.o
+.PHONY : src/xarm_sub.cpp.o
+
+src/xarm_sub.i: src/xarm_sub.cpp.i
+
+.PHONY : src/xarm_sub.i
+
+# target to preprocess a source file
+src/xarm_sub.cpp.i:
+	cd /home/won/xarm_ws/build && $(MAKE) -f xarm_interface/CMakeFiles/xarm_sub.dir/build.make xarm_interface/CMakeFiles/xarm_sub.dir/src/xarm_sub.cpp.i
+.PHONY : src/xarm_sub.cpp.i
+
+src/xarm_sub.s: src/xarm_sub.cpp.s
+
+.PHONY : src/xarm_sub.s
+
+# target to generate assembly for a file
+src/xarm_sub.cpp.s:
+	cd /home/won/xarm_ws/build && $(MAKE) -f xarm_interface/CMakeFiles/xarm_sub.dir/build.make xarm_interface/CMakeFiles/xarm_sub.dir/src/xarm_sub.cpp.s
+.PHONY : src/xarm_sub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -774,6 +858,7 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... edit_cache"
+	@echo "... xarm_sub"
 	@echo "... xarm_move"
 	@echo "... moveit_ros_manipulation_gencfg"
 	@echo "... object_recognition_msgs_generate_messages_cpp"
@@ -805,6 +890,7 @@ help:
 	@echo "... octomap_msgs_generate_messages_eus"
 	@echo "... octomap_msgs_generate_messages_lisp"
 	@echo "... install/strip"
+	@echo "... xarm_pub"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... octomap_msgs_generate_messages_nodejs"
@@ -818,6 +904,12 @@ help:
 	@echo "... src/xarm_move.o"
 	@echo "... src/xarm_move.i"
 	@echo "... src/xarm_move.s"
+	@echo "... src/xarm_pub.o"
+	@echo "... src/xarm_pub.i"
+	@echo "... src/xarm_pub.s"
+	@echo "... src/xarm_sub.o"
+	@echo "... src/xarm_sub.i"
+	@echo "... src/xarm_sub.s"
 .PHONY : help
 
 
