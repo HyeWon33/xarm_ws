@@ -51,7 +51,7 @@ $ rosrun rqt_joint_traj_controller rqt_joint_trajectory_controller
 ## 4. xarm_move 코드 작동
 
 ```
-$ caktin_make
+$ catkin_make
 $ source devel/setup.bash
 $ rosrun xarm_interface xarm_move
 ```
@@ -78,7 +78,7 @@ $ rosdep check --from-paths . --ignore-src --rosdistro melodic
 
 ## 2.bringup
 ```
-$ caktin_make
+$ catkin_make
 $ source devel/setup.bash
 $ roslaunch xarm_bringup xarm5_server.launch robot_ip:=192.168.1.210
 
