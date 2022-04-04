@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/ma.dir/cxx/src/1004-move_arc_line.cpp.o  -o /home/won/xarm_ws/devel/lib/xarm_sdk/ma 

@@ -12,10 +12,15 @@ find_package(catkin REQUIRED COMPONENTS
   moveit_ros_move_group
 )
 
+
+set(${PROJECT_NAME}_HDRS
+  include/${PROJECT_NAME}/xarm_apii.hpp
+)
+
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES xarm_interface
-#  CATKIN_DEPENDS roscpp
+  INCLUDE_DIRS include
+  LIBRARIES xarm_interface
+  CATKIN_DEPENDS roscpp
 #  DEPENDS system_lib
 )
 
@@ -32,3 +37,8 @@ target_link_libraries(xarm_sub ${catkin_LIBRARIES})
 
 add_executable(xarm_pub src/xarm_pub.cpp)
 target_link_libraries(xarm_pub ${catkin_LIBRARIES})
+
+install(
+  DIRECTORY include/${PROJECT_NAME}/
+  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+)

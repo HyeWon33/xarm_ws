@@ -11,9 +11,9 @@ ros/ros.h
 -
 iostream
 -
-std_msgs/Int32.h
--
 moveit/move_group_interface/move_group_interface.h
+-
+geometry_msgs/Pose.h
 -
 
 /opt/ros/melodic/include/actionlib/action_definition.h
@@ -2279,22 +2279,6 @@ ros/message_operations.h
 -
 
 /opt/ros/melodic/include/std_msgs/Header.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
-/opt/ros/melodic/include/std_msgs/Int32.h
 string
 -
 vector

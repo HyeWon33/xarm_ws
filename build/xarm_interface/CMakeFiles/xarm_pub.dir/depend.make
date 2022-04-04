@@ -159,7 +159,6 @@ xarm_interface/CMakeFiles/xarm_pub.dir/src/xarm_pub.cpp.o: /opt/ros/melodic/incl
 xarm_interface/CMakeFiles/xarm_pub.dir/src/xarm_pub.cpp.o: /opt/ros/melodic/include/srdfdom/model.h
 xarm_interface/CMakeFiles/xarm_pub.dir/src/xarm_pub.cpp.o: /opt/ros/melodic/include/std_msgs/ColorRGBA.h
 xarm_interface/CMakeFiles/xarm_pub.dir/src/xarm_pub.cpp.o: /opt/ros/melodic/include/std_msgs/Header.h
-xarm_interface/CMakeFiles/xarm_pub.dir/src/xarm_pub.cpp.o: /opt/ros/melodic/include/std_msgs/Int32.h
 xarm_interface/CMakeFiles/xarm_pub.dir/src/xarm_pub.cpp.o: /opt/ros/melodic/include/tf2/LinearMath/MinMax.h
 xarm_interface/CMakeFiles/xarm_pub.dir/src/xarm_pub.cpp.o: /opt/ros/melodic/include/tf2/LinearMath/QuadWord.h
 xarm_interface/CMakeFiles/xarm_pub.dir/src/xarm_pub.cpp.o: /opt/ros/melodic/include/tf2/LinearMath/Quaternion.h
