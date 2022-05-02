@@ -113,6 +113,7 @@ int main(int argc, char **argv){
 
 
 
+
 //4.
 //home으로 이동하고 출력하고 x, z이동
 
@@ -170,8 +171,8 @@ int main(int argc, char **argv){
 
     return 0;
 }
-*/
 
+*/
 
 
 
@@ -223,7 +224,7 @@ int main(int argc, char **argv){
     movePose.position=currentPose.pose.position;
 
     tf2::Quaternion q_orig, q_rot, q_new;
-    double r=0, p=3.141592/2, y=0; //p만 90도 돌려줄려고
+    double r=3.141592/2, p=0, y=0; //p만 90도 돌려줄려고
 
     tf2::convert(currentPose.pose.orientation, q_orig);
     q_rot.setRPY(r, p, y);
@@ -236,7 +237,6 @@ int main(int argc, char **argv){
     arm.setPoseTarget(movePose);
     arm.move();
     sleep(1);
-
     //포지션은 고정되어있는데 오리만 바뀐다... 
 
     return 0;
