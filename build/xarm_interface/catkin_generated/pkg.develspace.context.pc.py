@@ -1,7 +1,7 @@
 # generated from catkin/cmake/template/pkg.context.pc.in
 CATKIN_PACKAGE_PREFIX = ""
 PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/won/xarm_ws/src/xarm_interface/include".split(';') if "/home/won/xarm_ws/src/xarm_interface/include" != "" else []
-PROJECT_CATKIN_DEPENDS = "roscpp".replace(';', ' ')
+PROJECT_CATKIN_DEPENDS = "roscpp;std_msgs;geometry_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lxarm_interface".split(';') if "-lxarm_interface" != "" else []
 PROJECT_NAME = "xarm_interface"
 PROJECT_SPACE_DIR = "/home/won/xarm_ws/devel"

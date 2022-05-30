@@ -10,6 +10,8 @@ find_package(catkin REQUIRED COMPONENTS
   tf2_geometry_msgs
   moveit_ros_planning_interface 
   moveit_ros_move_group
+  std_msgs
+  geometry_msgs
 )
 
 
@@ -20,7 +22,7 @@ set(${PROJECT_NAME}_HDRS
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES xarm_interface
-  CATKIN_DEPENDS roscpp
+  CATKIN_DEPENDS roscpp std_msgs geometry_msgs
 #  DEPENDS system_lib
 )
 

@@ -63,6 +63,8 @@ moveit/move_group_interface/move_group_interface.h
 -
 geometry_msgs/Pose.h
 -
+sensor_msgs/JointState.h
+-
 
 /opt/ros/melodic/include/actionlib/action_definition.h
 

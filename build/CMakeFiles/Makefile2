@@ -3067,9 +3067,9 @@ clean: xarm_ros/xarm_api/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 # Target rules for target xarm_ros/xarm_api/CMakeFiles/test_xarm_states.dir
 
 # All Build rule for target.
-xarm_ros/xarm_api/CMakeFiles/test_xarm_states.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 xarm_ros/xarm_api/CMakeFiles/test_xarm_states.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_cpp.dir/all
 xarm_ros/xarm_api/CMakeFiles/test_xarm_states.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
+xarm_ros/xarm_api/CMakeFiles/test_xarm_states.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 	$(MAKE) -f xarm_ros/xarm_api/CMakeFiles/test_xarm_states.dir/build.make xarm_ros/xarm_api/CMakeFiles/test_xarm_states.dir/depend
 	$(MAKE) -f xarm_ros/xarm_api/CMakeFiles/test_xarm_states.dir/build.make xarm_ros/xarm_api/CMakeFiles/test_xarm_states.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=11 "Built target test_xarm_states"
@@ -3784,9 +3784,9 @@ clean: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
 # Target rules for target xarm_ros/xarm_api/CMakeFiles/test_tool_modbus.dir
 
 # All Build rule for target.
-xarm_ros/xarm_api/CMakeFiles/test_tool_modbus.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 xarm_ros/xarm_api/CMakeFiles/test_tool_modbus.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_cpp.dir/all
 xarm_ros/xarm_api/CMakeFiles/test_tool_modbus.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
+xarm_ros/xarm_api/CMakeFiles/test_tool_modbus.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 	$(MAKE) -f xarm_ros/xarm_api/CMakeFiles/test_tool_modbus.dir/build.make xarm_ros/xarm_api/CMakeFiles/test_tool_modbus.dir/depend
 	$(MAKE) -f xarm_ros/xarm_api/CMakeFiles/test_tool_modbus.dir/build.make xarm_ros/xarm_api/CMakeFiles/test_tool_modbus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=10 "Built target test_tool_modbus"
@@ -3887,9 +3887,9 @@ clean: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_py.dir/clean
 # Target rules for target xarm_ros/xarm_api/CMakeFiles/test_xarm_ros_client.dir
 
 # All Build rule for target.
-xarm_ros/xarm_api/CMakeFiles/test_xarm_ros_client.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 xarm_ros/xarm_api/CMakeFiles/test_xarm_ros_client.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_cpp.dir/all
 xarm_ros/xarm_api/CMakeFiles/test_xarm_ros_client.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
+xarm_ros/xarm_api/CMakeFiles/test_xarm_ros_client.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 	$(MAKE) -f xarm_ros/xarm_api/CMakeFiles/test_xarm_ros_client.dir/build.make xarm_ros/xarm_api/CMakeFiles/test_xarm_ros_client.dir/depend
 	$(MAKE) -f xarm_ros/xarm_api/CMakeFiles/test_xarm_ros_client.dir/build.make xarm_ros/xarm_api/CMakeFiles/test_xarm_ros_client.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num= "Built target test_xarm_ros_client"
@@ -3958,9 +3958,9 @@ clean: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/cle
 # Target rules for target xarm_ros/xarm_api/CMakeFiles/test_xarm_velo_move.dir
 
 # All Build rule for target.
-xarm_ros/xarm_api/CMakeFiles/test_xarm_velo_move.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 xarm_ros/xarm_api/CMakeFiles/test_xarm_velo_move.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_cpp.dir/all
 xarm_ros/xarm_api/CMakeFiles/test_xarm_velo_move.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
+xarm_ros/xarm_api/CMakeFiles/test_xarm_velo_move.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 	$(MAKE) -f xarm_ros/xarm_api/CMakeFiles/test_xarm_velo_move.dir/build.make xarm_ros/xarm_api/CMakeFiles/test_xarm_velo_move.dir/depend
 	$(MAKE) -f xarm_ros/xarm_api/CMakeFiles/test_xarm_velo_move.dir/build.make xarm_ros/xarm_api/CMakeFiles/test_xarm_velo_move.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=12 "Built target test_xarm_velo_move"
@@ -4303,8 +4303,8 @@ xarm_ros/examples/run_recorded_traj/preinstall:
 # Target rules for target xarm_ros/examples/run_recorded_traj/CMakeFiles/xarm_traj_test.dir
 
 # All Build rule for target.
-xarm_ros/examples/run_recorded_traj/CMakeFiles/xarm_traj_test.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 xarm_ros/examples/run_recorded_traj/CMakeFiles/xarm_traj_test.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
+xarm_ros/examples/run_recorded_traj/CMakeFiles/xarm_traj_test.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 	$(MAKE) -f xarm_ros/examples/run_recorded_traj/CMakeFiles/xarm_traj_test.dir/build.make xarm_ros/examples/run_recorded_traj/CMakeFiles/xarm_traj_test.dir/depend
 	$(MAKE) -f xarm_ros/examples/run_recorded_traj/CMakeFiles/xarm_traj_test.dir/build.make xarm_ros/examples/run_recorded_traj/CMakeFiles/xarm_traj_test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=100 "Built target xarm_traj_test"
@@ -4384,9 +4384,9 @@ xarm_ros/xarm_controller/preinstall:
 # Target rules for target xarm_ros/xarm_controller/CMakeFiles/xarm_traj_controller.dir
 
 # All Build rule for target.
+xarm_ros/xarm_controller/CMakeFiles/xarm_traj_controller.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
 xarm_ros/xarm_controller/CMakeFiles/xarm_traj_controller.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 xarm_ros/xarm_controller/CMakeFiles/xarm_traj_controller.dir/all: xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_traj_controller.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
 	$(MAKE) -f xarm_ros/xarm_controller/CMakeFiles/xarm_traj_controller.dir/build.make xarm_ros/xarm_controller/CMakeFiles/xarm_traj_controller.dir/depend
 	$(MAKE) -f xarm_ros/xarm_controller/CMakeFiles/xarm_traj_controller.dir/build.make xarm_ros/xarm_controller/CMakeFiles/xarm_traj_controller.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=99 "Built target xarm_traj_controller"
@@ -4423,6 +4423,37 @@ clean: xarm_ros/xarm_controller/CMakeFiles/xarm_traj_controller.dir/clean
 # Target rules for target xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir
 
 # All Build rule for target.
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_nodejs.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_py.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_eus.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_py.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_nodejs.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_eus.dir/all
@@ -4462,37 +4493,6 @@ xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_cont
 xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_controller/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
 xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_controller/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/all
 xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_controller/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_lisp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_nodejs.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_py.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_eus.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_py.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_nodejs.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/build.make xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/depend
 	$(MAKE) -f xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/build.make xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num= "Built target xarm_combined_hw"
@@ -4529,6 +4529,37 @@ clean: xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/clean
 # Target rules for target xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir
 
 # All Build rule for target.
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_nodejs.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_py.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_eus.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_py.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_nodejs.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_eus.dir/all
@@ -4567,37 +4598,6 @@ xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_controller/CM
 xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_controller/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
 xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_controller/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/all
 xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_controller/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_lisp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_nodejs.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_py.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_eus.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_py.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_vision/camera_demo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_nodejs.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/build.make xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/depend
 	$(MAKE) -f xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/build.make xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=38 "Built target xarm_hw"
@@ -4730,10 +4730,10 @@ clean: xarm_ros/xarm_controller/CMakeFiles/dynamic_reconfigure_generate_messages
 # Target rules for target xarm_ros/xarm_controller/CMakeFiles/xarm_combined_traj_controller.dir
 
 # All Build rule for target.
+xarm_ros/xarm_controller/CMakeFiles/xarm_combined_traj_controller.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
 xarm_ros/xarm_controller/CMakeFiles/xarm_combined_traj_controller.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 xarm_ros/xarm_controller/CMakeFiles/xarm_combined_traj_controller.dir/all: xarm_ros/xarm_controller/CMakeFiles/xarm_combined_hw.dir/all
 xarm_ros/xarm_controller/CMakeFiles/xarm_combined_traj_controller.dir/all: xarm_ros/xarm_controller/CMakeFiles/xarm_hw.dir/all
-xarm_ros/xarm_controller/CMakeFiles/xarm_combined_traj_controller.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
 	$(MAKE) -f xarm_ros/xarm_controller/CMakeFiles/xarm_combined_traj_controller.dir/build.make xarm_ros/xarm_controller/CMakeFiles/xarm_combined_traj_controller.dir/depend
 	$(MAKE) -f xarm_ros/xarm_controller/CMakeFiles/xarm_combined_traj_controller.dir/build.make xarm_ros/xarm_controller/CMakeFiles/xarm_combined_traj_controller.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=13 "Built target xarm_combined_traj_controller"
@@ -5090,8 +5090,8 @@ clean: xarm_ros/xarm_controller/CMakeFiles/dynamic_reconfigure_generate_messages
 # Target rules for target xarm_ros/xarm_controller/CMakeFiles/sample_motion.dir
 
 # All Build rule for target.
-xarm_ros/xarm_controller/CMakeFiles/sample_motion.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 xarm_ros/xarm_controller/CMakeFiles/sample_motion.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
+xarm_ros/xarm_controller/CMakeFiles/sample_motion.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 	$(MAKE) -f xarm_ros/xarm_controller/CMakeFiles/sample_motion.dir/build.make xarm_ros/xarm_controller/CMakeFiles/sample_motion.dir/depend
 	$(MAKE) -f xarm_ros/xarm_controller/CMakeFiles/sample_motion.dir/build.make xarm_ros/xarm_controller/CMakeFiles/sample_motion.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num= "Built target sample_motion"
@@ -5313,26 +5313,6 @@ xarm_ros/xarm_gripper/preinstall:
 # Target rules for target xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir
 
 # All Build rule for target.
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_cpp.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_eus.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_lisp.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_lisp.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_py.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_py.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_eus.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_lisp.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
@@ -5361,6 +5341,26 @@ xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMake
 xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_eus.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_py.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_py.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/all: xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/all
 	$(MAKE) -f xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/build.make xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/depend
 	$(MAKE) -f xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/build.make xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=5 "Built target gripper_client"
@@ -5397,26 +5397,6 @@ clean: xarm_ros/xarm_gripper/CMakeFiles/gripper_client.dir/clean
 # Target rules for target xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir
 
 # All Build rule for target.
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_cpp.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_eus.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_lisp.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_lisp.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_py.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_py.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_eus.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_lisp.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
@@ -5445,6 +5425,26 @@ xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_ap
 xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_eus.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_generate_messages_py.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_py.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/control_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_api/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/all: xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/all
 	$(MAKE) -f xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/build.make xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/depend
 	$(MAKE) -f xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/build.make xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num= "Built target gripper_action_server"
@@ -5481,6 +5481,7 @@ clean: xarm_ros/xarm_gripper/CMakeFiles/gripper_action_server.dir/clean
 # Target rules for target xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_py.dir
 
 # All Build rule for target.
+xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_py.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_py.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_py.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveResult.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_py.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveActionResult.dir/all
@@ -5489,7 +5490,6 @@ xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_py.dir/all: xarm
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_py.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveActionGoal.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_py.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveGoal.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_py.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveAction.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_py.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(MAKE) -f xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_py.dir/build.make xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_py.dir/depend
 	$(MAKE) -f xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_py.dir/build.make xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=35,36,37 "Built target xarm_gripper_generate_messages_py"
@@ -5553,6 +5553,7 @@ clean: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_de
 # Target rules for target xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_eus.dir
 
 # All Build rule for target.
+xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_eus.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_eus.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_eus.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveResult.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_eus.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveActionResult.dir/all
@@ -5561,7 +5562,6 @@ xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_eus.dir/all: xar
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_eus.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveActionGoal.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_eus.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveGoal.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_eus.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveAction.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_eus.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_eus.dir/build.make xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_eus.dir/depend
 	$(MAKE) -f xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_eus.dir/build.make xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=28,29 "Built target xarm_gripper_generate_messages_eus"
@@ -5666,6 +5666,8 @@ clean: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_de
 # Target rules for target xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir
 
 # All Build rule for target.
+xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveResult.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveActionResult.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveFeedback.dir/all
@@ -5673,8 +5675,6 @@ xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/all: xar
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveActionGoal.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveGoal.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveAction.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/build.make xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/depend
 	$(MAKE) -f xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/build.make xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=25,26,27 "Built target xarm_gripper_generate_messages_cpp"
@@ -5898,6 +5898,7 @@ clean: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_de
 # Target rules for target xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_nodejs.dir
 
 # All Build rule for target.
+xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_nodejs.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_nodejs.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_nodejs.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveResult.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_nodejs.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveActionResult.dir/all
@@ -5906,7 +5907,6 @@ xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_nodejs.dir/all: 
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_nodejs.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveActionGoal.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_nodejs.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveGoal.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_nodejs.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveAction.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_nodejs.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_nodejs.dir/build.make xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_nodejs.dir/depend
 	$(MAKE) -f xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_nodejs.dir/build.make xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=33,34 "Built target xarm_gripper_generate_messages_nodejs"
@@ -6066,6 +6066,7 @@ clean: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_de
 # Target rules for target xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_lisp.dir
 
 # All Build rule for target.
+xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_lisp.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_lisp.dir/all: xarm_ros/xarm_api/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_lisp.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveResult.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_lisp.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveActionResult.dir/all
@@ -6074,7 +6075,6 @@ xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_lisp.dir/all: xa
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_lisp.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveActionGoal.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_lisp.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveGoal.dir/all
 xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_lisp.dir/all: xarm_ros/xarm_gripper/CMakeFiles/_xarm_gripper_generate_messages_check_deps_MoveAction.dir/all
-xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_lisp.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_lisp.dir/build.make xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_lisp.dir/depend
 	$(MAKE) -f xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_lisp.dir/build.make xarm_ros/xarm_gripper/CMakeFiles/xarm_gripper_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=30,31,32 "Built target xarm_gripper_generate_messages_lisp"
@@ -7503,12 +7503,12 @@ xarm_ros/xarm_planner/preinstall:
 # Target rules for target xarm_ros/xarm_planner/CMakeFiles/xarm_simple_planner_test.dir
 
 # All Build rule for target.
+xarm_ros/xarm_planner/CMakeFiles/xarm_simple_planner_test.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_cpp.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_simple_planner_test.dir/all: xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_py.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_simple_planner_test.dir/all: xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_cpp.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_simple_planner_test.dir/all: xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_nodejs.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_simple_planner_test.dir/all: xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_eus.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_simple_planner_test.dir/all: xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_lisp.dir/all
-xarm_ros/xarm_planner/CMakeFiles/xarm_simple_planner_test.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f xarm_ros/xarm_planner/CMakeFiles/xarm_simple_planner_test.dir/build.make xarm_ros/xarm_planner/CMakeFiles/xarm_simple_planner_test.dir/depend
 	$(MAKE) -f xarm_ros/xarm_planner/CMakeFiles/xarm_simple_planner_test.dir/build.make xarm_ros/xarm_planner/CMakeFiles/xarm_simple_planner_test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=98 "Built target xarm_simple_planner_test"
@@ -7586,12 +7586,12 @@ clean: xarm_ros/xarm_planner/CMakeFiles/xarm_simple_planner.dir/clean
 # Target rules for target xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_py.dir
 
 # All Build rule for target.
+xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_py.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_py.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_py.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_joint_plan.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_py.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_single_straight_plan.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_py.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_exec_plan.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_py.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_pose_plan.dir/all
-xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_py.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_py.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 	$(MAKE) -f xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_py.dir/build.make xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_py.dir/depend
 	$(MAKE) -f xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_py.dir/build.make xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=94,95 "Built target xarm_planner_generate_messages_py"
@@ -7888,12 +7888,12 @@ clean: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_de
 # Target rules for target xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_cpp.dir
 
 # All Build rule for target.
+xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_cpp.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_cpp.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_cpp.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_joint_plan.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_cpp.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_single_straight_plan.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_cpp.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_exec_plan.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_cpp.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_pose_plan.dir/all
-xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_cpp.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_cpp.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_cpp.dir/build.make xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_cpp.dir/depend
 	$(MAKE) -f xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_cpp.dir/build.make xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=89 "Built target xarm_planner_generate_messages_cpp"
@@ -7989,12 +7989,12 @@ clean: xarm_ros/xarm_planner/CMakeFiles/xarm_planner_genpy.dir/clean
 # Target rules for target xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_nodejs.dir
 
 # All Build rule for target.
+xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_nodejs.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_nodejs.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_nodejs.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_joint_plan.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_nodejs.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_single_straight_plan.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_nodejs.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_exec_plan.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_nodejs.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_pose_plan.dir/all
-xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_nodejs.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_nodejs.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_nodejs.dir/build.make xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_nodejs.dir/depend
 	$(MAKE) -f xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_nodejs.dir/build.make xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=93 "Built target xarm_planner_generate_messages_nodejs"
@@ -8058,12 +8058,12 @@ clean: xarm_ros/xarm_planner/CMakeFiles/graph_msgs_generate_messages_py.dir/clea
 # Target rules for target xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_eus.dir
 
 # All Build rule for target.
+xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_eus.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_eus.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_eus.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_joint_plan.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_eus.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_single_straight_plan.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_eus.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_exec_plan.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_eus.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_pose_plan.dir/all
-xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_eus.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_eus.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_eus.dir/build.make xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_eus.dir/depend
 	$(MAKE) -f xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_eus.dir/build.make xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=90,91 "Built target xarm_planner_generate_messages_eus"
@@ -8232,12 +8232,12 @@ clean: xarm_ros/xarm_planner/CMakeFiles/graph_msgs_generate_messages_cpp.dir/cle
 # Target rules for target xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_lisp.dir
 
 # All Build rule for target.
+xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_lisp.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_lisp.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_lisp.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_joint_plan.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_lisp.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_single_straight_plan.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_lisp.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_exec_plan.dir/all
 xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_lisp.dir/all: xarm_ros/xarm_planner/CMakeFiles/_xarm_planner_generate_messages_check_deps_pose_plan.dir/all
-xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_lisp.dir/all: xarm_ros/xarm_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_lisp.dir/all: xarm_ros/xarm_api/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_lisp.dir/build.make xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_lisp.dir/depend
 	$(MAKE) -f xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_lisp.dir/build.make xarm_ros/xarm_planner/CMakeFiles/xarm_planner_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=92 "Built target xarm_planner_generate_messages_lisp"
@@ -8323,9 +8323,9 @@ xarm_ros/xarm_vision/d435i_xarm_setup/preinstall:
 # Target rules for target xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_moveit.dir
 
 # All Build rule for target.
-xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_moveit.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_moveit.dir/all: xarm_ros/xarm_msgs/CMakeFiles/xarm_msgs_generate_messages_cpp.dir/all
 xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_moveit.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
+xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_moveit.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 	$(MAKE) -f xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_moveit.dir/build.make xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_moveit.dir/depend
 	$(MAKE) -f xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_moveit.dir/build.make xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_moveit.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num= "Built target findobj2d_grasp_moveit"
@@ -8362,8 +8362,8 @@ clean: xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_moveit.d
 # Target rules for target xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_api.dir
 
 # All Build rule for target.
-xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_api.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_api.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
+xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_api.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 	$(MAKE) -f xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_api.dir/build.make xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_api.dir/depend
 	$(MAKE) -f xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_api.dir/build.make xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_api.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=1 "Built target findobj2d_grasp_api"
@@ -8400,8 +8400,8 @@ clean: xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/findobj2d_grasp_api.dir/
 # Target rules for target xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/obj2base.dir
 
 # All Build rule for target.
-xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/obj2base.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/obj2base.dir/all: xarm_ros/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir/all
+xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/obj2base.dir/all: xarm_ros/xarm_api/CMakeFiles/xarm_ros_client.dir/all
 	$(MAKE) -f xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/obj2base.dir/build.make xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/obj2base.dir/depend
 	$(MAKE) -f xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/obj2base.dir/build.make xarm_ros/xarm_vision/d435i_xarm_setup/CMakeFiles/obj2base.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/won/xarm_ws/build/CMakeFiles --progress-num=8 "Built target obj2base"

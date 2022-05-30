@@ -5,4 +5,4 @@ Description: Description of xarm_interface
 Version: 0.0.0
 Cflags: -I/home/won/xarm_ws/src/xarm_interface/include
 Libs: -L${prefix}/lib -lxarm_interface
-Requires: roscpp
+Requires: roscpp std_msgs geometry_msgs
