@@ -377,91 +377,12 @@ int main(int argc, char **argv){
 */
 
 
-#include <ros/ros.h>
-#include <iostream>
-#include <moveit/move_group_interface/move_group_interface.h>
-#include <geometry_msgs/Pose.h>
-#include <sensor_msgs/JointState.h>
-
-
-using namespace std;
-
-int main(int argc, char **argv){
-    ros::init(argc, argv, "xarm_move");
-    ros::NodeHandle nh;
-    ros::AsyncSpinner spinner(1);
-    spinner.start();
-
-    moveit::planning_interface::MoveGroupInterface arm("xarm5"); 
-    moveit::planning_interface::MoveGroupInterface gripper("xarm_gripper");
-
-    vector<double> currentJointValue=arm.getCurrentJointValues();
-    vector<double> currentJointValue2 = gripper.getCurrentJointValues();
-    
-    arm.setGoalJointTolerance(0.001);
-    arm.setMaxAccelerationScalingFactor(0.2);
-    arm.setMaxVelocityScalingFactor(0.05);
-
-    cout << "go home" << endl;
-    arm.setNamedTarget("home"); 
-    arm.move(); //robot move
-    sleep(1);
-
-    geometry_msgs::Pose target_pose;
-    bool a;
-    
-    // cout << arm.getCurrentPose() << endl;
-
-    arm.getJointValueTarget();
-    target_pose.position.x = 0.207033;
-    target_pose.position.y = -0.00000807133;
-    target_pose.position.z = 0.39458;
-
-    target_pose.orientation.x = 0.7071068;
-    target_pose.orientation.y = -0.7071068;
-    target_pose.orientation.z = 0;
-    target_pose.orientation.w = 0;
-
-    sleep(1);
-   
-    
-    arm.setStartStateToCurrentState();
-    arm.setPoseTarget(target_pose, "link_tcp");
-
-    moveit::planning_interface::MoveGroupInterface::Plan my_plan;
-    moveit_msgs::MotionPlanRequest response;
-
-    arm.plan(my_plan);
-    arm.execute(my_plan);
-
-    // a = arm.setPositionTarget(target_pose.position.x, target_pose.position.y, target_pose.position.z);
-    // cout << a << endl;
-    
-    // arm.move();
-    sleep(1);
-
-    return 0;
-}
-
-
-
 // #include <ros/ros.h>
 // #include <iostream>
 // #include <moveit/move_group_interface/move_group_interface.h>
-// #include <moveit/planning_scene_interface/planning_scene_interface.h>
 // #include <geometry_msgs/Pose.h>
 // #include <sensor_msgs/JointState.h>
 
-// #include <moveit_visual_tools/moveit_visual_tools.h>
-// #include <moveit_msgs/DisplayRobotState.h>
-// #include <moveit_msgs/DisplayTrajectory.h>
-
-// #include <moveit_msgs/AttachedCollisionObject.h>
-// #include <moveit_msgs/CollisionObject.h>
-
-// #include <moveit/robot_model_loader/robot_model_loader.h>
-// #include <moveit/robot_model/robot_model.h>
-// #include <moveit/robot_state/robot_state.h>
 
 // using namespace std;
 
@@ -470,57 +391,146 @@ int main(int argc, char **argv){
 //     ros::NodeHandle nh;
 //     ros::AsyncSpinner spinner(1);
 //     spinner.start();
-//     static const std::string PLANNING_GROUP = "xarm5";
 
-//     moveit::planning_interface::MoveGroupInterface arm("xarm5"); //moveitsetupassistant 
+//     moveit::planning_interface::MoveGroupInterface arm("xarm5"); 
 //     moveit::planning_interface::MoveGroupInterface gripper("xarm_gripper");
 
 //     vector<double> currentJointValue=arm.getCurrentJointValues();
 //     vector<double> currentJointValue2 = gripper.getCurrentJointValues();
-//     const robot_model::JointModelGroup* joint_model_group_;
     
 //     arm.setGoalJointTolerance(0.001);
 //     arm.setMaxAccelerationScalingFactor(0.2);
 //     arm.setMaxVelocityScalingFactor(0.05);
 
+//     cout << "go home" << endl;
+//     arm.setNamedTarget("home"); 
+//     arm.move(); //robot move
+//     sleep(1);
+
+//     geometry_msgs::Pose target_pose;
+//     bool a;
     
-//     // joint_std::vector<double> joint_values;
-
-//     // kinematic_state->copyJointGroupPositions(joint_model_group, joint_values);
-//     // for (std::size_t i = 0; i < joint_names.size(); ++i)
-//     // {
-//     //     ROS_INFO("Joint %s: %f", joint_names[i].c_str(), joint_values[i]);
-//     // }
-
-
-//     cout << arm.getCurrentPose("link_tcp") << endl;
-
-
-//     // cout << "go home" << endl;
-//     // arm.setNamedTarget("home"); //moveitsetupassistant 
-//     // arm.move(); //robot move
-//     // sleep(1);
-//     // geometry_msgs::Pose target_pose;
-
-//     // const robot_state::JointModelGroup* joint_model_group =
-//     //   arm.getCurrentState()->getJointModelGroup(PLANNING_GROUP);
-
-//     // ROS_INFO_NAMED("tutorial", "Planning frame: %s", arm.getPlanningFrame().c_str());
-
-//     // ROS_INFO_NAMED("tutorial", "End effector link: %s", arm.getEndEffectorLink().c_str());
-
-//     // ROS_INFO_NAMED("tutorial", "Available Planning Groups:");
-//     // std::copy(arm.getJointModelGroupNames().begin(), arm.getJointModelGroupNames().end(),
-//     // std::ostream_iterator<std::string>(std::cout, ", "));
-
-//     // cout << arm.getRobotModel() << endl;
-
 //     // cout << arm.getCurrentPose() << endl;
+//     // cout << arm.getJointValueTarget()<< endl;
+
+//     target_pose.position.x = 0.3;
+//     target_pose.position.y = -0.00000807133;
+//     target_pose.position.z = 0.39458;
+
+//     target_pose.orientation.x = -0.710263;
+//     target_pose.orientation.y = 0.703931;
+//     target_pose.orientation.z = -0.00206424;
+//     target_pose.orientation.w = 0.00204172;
+
+//     sleep(1);
    
+//     arm.setStartStateToCurrentState();
+//     arm.setPoseTarget(target_pose, "link_tcp");
 
+//     moveit::planning_interface::MoveGroupInterface::Plan my_plan;
+//     moveit_msgs::MotionPlanRequest response;
 
+//     arm.plan(my_plan);
+//     arm.execute(my_plan);
+
+//     // a = arm.setPositionTarget(target_pose.position.x, target_pose.position.y, target_pose.position.z);
+//     // cout << a << endl;
     
+//     // arm.move();
 //     sleep(1);
 
 //     return 0;
 // }
+
+
+
+#include <ros/ros.h>
+#include <iostream>
+#include <moveit/move_group_interface/move_group_interface.h>
+#include <moveit/planning_scene_interface/planning_scene_interface.h>
+#include <geometry_msgs/Pose.h>
+#include <sensor_msgs/JointState.h>
+
+#include <moveit_visual_tools/moveit_visual_tools.h>
+#include <moveit_msgs/DisplayRobotState.h>
+#include <moveit_msgs/DisplayTrajectory.h>
+
+#include <moveit_msgs/AttachedCollisionObject.h>
+#include <moveit_msgs/CollisionObject.h>
+
+#include <moveit/robot_model_loader/robot_model_loader.h>
+#include <moveit/robot_model/robot_model.h>
+#include <moveit/robot_state/robot_state.h>
+
+using namespace std;
+
+int main(int argc, char **argv){
+    ros::init(argc, argv, "xarm_move");
+    ros::NodeHandle nh;
+    ros::AsyncSpinner spinner(1);
+    spinner.start();
+    static const std::string PLANNING_GROUP = "xarm5";
+
+    moveit::planning_interface::MoveGroupInterface arm("xarm5"); //moveitsetupassistant 
+    moveit::planning_interface::MoveGroupInterface gripper("xarm_gripper");
+
+    vector<double> currentJointValue=arm.getCurrentJointValues();
+    vector<double> currentJointValue2 = gripper.getCurrentJointValues();
+    const robot_model::JointModelGroup* joint_model_group_;
+    
+    arm.setGoalJointTolerance(0.001);
+    arm.setMaxAccelerationScalingFactor(0.2);
+    arm.setMaxVelocityScalingFactor(0.05);
+
+    
+    // joint_std::vector<double> joint_values;
+
+    // kinematic_state->copyJointGroupPositions(joint_model_group, joint_values);
+    // for (std::size_t i = 0; i < joint_names.size(); ++i)
+    // {
+    //     ROS_INFO("Joint %s: %f", joint_names[i].c_str(), joint_values[i]);
+    // }
+
+
+    // cout << arm.getCurrentPose("link_tcp") << endl;
+
+    // cout << arm.getCurrentState() << endl;
+
+    const robot_state::JointModelGroup* joint_model_group =
+      arm.getCurrentState()->getJointModelGroup(PLANNING_GROUP);
+
+    moveit::core::RobotStatePtr current_state = arm.getCurrentPose();
+
+    std::vector<double> joint_group_positions;
+    current_state->copyJointGroupPositions(joint_model_group, joint_group_positions);
+    
+    joint_group_positions[0] = -1.0;  // radians
+    arm.setJointValueTarget(joint_group_positions);
+
+    arm.move();
+    // cout << "go home" << endl;
+    // arm.setNamedTarget("home"); //moveitsetupassistant 
+    // arm.move(); //robot move
+    // sleep(1);
+    // geometry_msgs::Pose target_pose;
+
+    // const robot_state::JointModelGroup* joint_model_group =
+    //   arm.getCurrentState()->getJointModelGroup(PLANNING_GROUP);
+
+    // ROS_INFO_NAMED("tutorial", "Planning frame: %s", arm.getPlanningFrame().c_str());
+
+    // ROS_INFO_NAMED("tutorial", "End effector link: %s", arm.getEndEffectorLink().c_str());
+
+    // ROS_INFO_NAMED("tutorial", "Available Planning Groups:");
+    // std::copy(arm.getJointModelGroupNames().begin(), arm.getJointModelGroupNames().end(),
+    // std::ostream_iterator<std::string>(std::cout, ", "));
+
+    // cout << arm.getRobotModel() << endl;
+
+    // cout << arm.getCurrentPose() << endl;
+   
+
+    sleep(1);
+
+    return 0;
+}
