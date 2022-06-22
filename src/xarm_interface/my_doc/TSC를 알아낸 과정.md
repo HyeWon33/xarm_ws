@@ -41,3 +41,11 @@ setPoseTarget()을 사용한다. 그 전에는 setPositionTarget()을 사용해�
 ## 주의
 
 부동소수점 생각하고 값을 넣어야 한다.
+
+
+
+
+
+
+
++) 6월23일에 추가... 이전에 생각한건데 link_eef가 아니라 link_tcp이다.
