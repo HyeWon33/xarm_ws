@@ -1,224 +1,209 @@
-// /*
-// #include <ros/ros.h>
-// #include <iostream>
-// #include <std_msgs/Int32.h>
-// #include <moveit/move_group_interface/move_group_interface.h>
 
-// using namespace std;
+//1.
+//joint 이동
 
-// void numnum(const std_msgs::Int32& msgs){
-
-//     cout << "1" << endl;
-// }
-
-// int main(int argc, char **argv){
-//     ros::init(argc, argv, "xarm_sub");
-
-//     ros::NodeHandle nh;
-
-//     ros::AsyncSpinner spinner(1);
-//     spinner.start();
-    
-//     int a = 0;
-
-//     if(a = 0){
-//         ros::Subscriber sub_num = nh.subscribe("num", 1, numnum);
-//         cout << a << endl;
-//         a++;
-//     }
-
-//     moveit::planning_interface::MoveGroupInterface arm("xarm5"); //moveitsetupassistant 
-
-//     moveit::planning_interface::MoveGroupInterface gripper("xarm_gripper");
-
-//     arm.setGoalJointTolerance(0.001);
-//     arm.setMaxAccelerationScalingFactor(0.2);
-//     arm.setMaxVelocityScalingFactor(0.05);
-
-//     arm.setNamedTarget("home"); //moveitsetupassistant 
-//     arm.move(); //robot move
-//     cout << "home" << endl;
-//     sleep(1);
-
-//     vector<double> currentJointValue = arm.getCurrentJointValues();
-//     vector<double> currentJointValue2 = gripper.getCurrentJointValues();
-    
-
-//     // for(int i = 0; i < currentJointValue.size(); i++){
-//     //     cout << currentJointValue[i] << ", ";
-//     // }
-//     // cout << endl;
-    
-//     currentJointValue2[0] = 0.4;
-//     cout << "gripper open" << endl;
-//     gripper.setJointValueTarget(currentJointValue2);
-//     gripper.move();
-//     sleep(1);
-
-//     currentJointValue2[0] = 0.855211;
-//     cout << "gripper close" << endl;
-//     gripper.setJointValueTarget(currentJointValue2);
-//     gripper.move();
-//     sleep(1);
-
-    
-//     currentJointValue[0] -= 0.174533;
-//     arm.setJointValueTarget(currentJointValue);
-//     arm.move();
-//     sleep(1);
-
-//     currentJointValue[1] -= 0.174533;
-//     arm.setJointValueTarget(currentJointValue);
-//     arm.move();
-//     sleep(1);
-
-//     currentJointValue[2] -= 0.174533;
-//     arm.setJointValueTarget(currentJointValue);
-//     arm.move();
-//     sleep(1);
-
-//     currentJointValue[3] -= 0.174533;
-//     arm.setJointValueTarget(currentJointValue);
-//     arm.move();
-//     sleep(1);
-
-//     currentJointValue[4] -= 0.174533;
-//     arm.setJointValueTarget(currentJointValue);
-//     arm.move();
-//     sleep(1);
-    
-
-//     cout << "end" << endl;
-
-//     return 0;
-// }
-// */
-
-// #include <ros/ros.h>
-// #include <iostream>
-// #include <std_msgs/Int32.h>
-// #include <moveit/move_group_interface/move_group_interface.h>
-
-// using namespace std;
-
-// std::vector<double> kinematic_pose_sub;
-
-// void PoseCallback(const geometry_msgs::Pose &msg){
-
-//     kinematic_pose_sub.clear();
-
-// 	kinematic_pose_sub.push_back(msg.position.x);
-// 	kinematic_pose_sub.push_back(msg.position.y); 
-// 	kinematic_pose_sub.push_back(msg.position.z);
-// }
-
-
-// void numnum(const std_msgs::Int32& msgs){
-
-//     cout << "1" << endl;
-// }
-
-// int main(int argc, char **argv){
-//     ros::init(argc, argv, "xarm_sub");
-
-//     ros::NodeHandle nh;
-
-//     ros::AsyncSpinner spinner(1);
-//     spinner.start();
-    
-//     int a = 0;
-
-//     if(a = 0){
-//         ros::Subscriber sub_num = nh.subscribe("num", 1, numnum);
-//         cout << a << endl;
-//         a++;
-//     }
-//     ros::Subscriber sub_ = nh.subscribe("xyz", 1, PoseCallback);
-
-//     moveit::planning_interface::MoveGroupInterface arm("xarm5"); //moveitsetupassistant 
-
-//     moveit::planning_interface::MoveGroupInterface gripper("xarm_gripper");
-
-//     arm.setGoalJointTolerance(0.001);
-//     arm.setMaxAccelerationScalingFactor(0.2);
-//     arm.setMaxVelocityScalingFactor(0.05);
-
-//     arm.setNamedTarget("home"); //moveitsetupassistant 
-//     arm.move(); //robot move
-//     cout << "home" << endl;
-//     sleep(1);
-
-//     vector<double> currentJointValue = arm.getCurrentJointValues();
-//     vector<double> currentJointValue2 = gripper.getCurrentJointValues();
-    
-
-//     // for(int i = 0; i < currentJointValue.size(); i++){
-//     //     cout << currentJointValue[i] << ", ";
-//     // }
-//     // cout << endl;
-    
-//     currentJointValue2[0] = 0.4;
-//     cout << "gripper open" << endl;
-//     gripper.setJointValueTarget(currentJointValue2);
-//     gripper.move();
-//     sleep(1);
-
-//     currentJointValue2[0] = 0.855211;
-//     cout << "gripper close" << endl;
-//     gripper.setJointValueTarget(currentJointValue2);
-//     gripper.move();
-//     sleep(1);
-
-    
-//     currentJointValue[0] -= 0.174533;
-//     arm.setJointValueTarget(currentJointValue);
-//     arm.move();
-//     sleep(1);
-
-//     currentJointValue[1] -= 0.174533;
-//     arm.setJointValueTarget(currentJointValue);
-//     arm.move();
-//     sleep(1);
-
-//     currentJointValue[2] -= 0.174533;
-//     arm.setJointValueTarget(currentJointValue);
-//     arm.move();
-//     sleep(1);
-
-//     currentJointValue[3] -= 0.174533;
-//     arm.setJointValueTarget(currentJointValue);
-//     arm.move();
-//     sleep(1);
-
-//     currentJointValue[4] -= 0.174533;
-//     arm.setJointValueTarget(currentJointValue);
-//     arm.move();
-//     sleep(1);
-    
-
-//     cout << "end" << endl;
-
-//     return 0;
-// }
-
+/*
 #include <ros/ros.h>
 #include <iostream>
-#include <std_msgs/Int32.h>
 #include <moveit/move_group_interface/move_group_interface.h>
-// #include <xarm/wrapper/xarm_api.h>
-// #include "xarm_apii.h"
-// #include <xarm/wrapper/xarm_api.h>
-void numCallback(const std_msgs::Int32 &a){
-    std::cout<< a << std::endl;
-}
+#include <geometry_msgs/Pose.h>
+#include <sensor_msgs/JointState.h>
+
+
+using namespace std;
 
 int main(int argc, char **argv){
-    ros::init(argc, argv, "xarm_sub");
+    ros::init(argc, argv, "xarm_move");
     ros::NodeHandle nh;
+    ros::AsyncSpinner spinner(1);
+    spinner.start();
 
-    ros::Subscriber num_sub = nh.subscribe("num", 1, numCallback);
+    moveit::planning_interface::MoveGroupInterface arm("xarm5"); 
+    moveit::planning_interface::MoveGroupInterface gripper("xarm_gripper");
 
-    ros::spin();
+    vector<double> currentJointValue=arm.getCurrentJointValues();
+    vector<double> currentJointValue2 = gripper.getCurrentJointValues();
+    
+    arm.setGoalJointTolerance(0.001);
+    arm.setMaxAccelerationScalingFactor(0.2);
+    arm.setMaxVelocityScalingFactor(0.05);
+
+    cout << "go home" << endl;
+    arm.setNamedTarget("home"); 
+    arm.move(); //robot move
+    sleep(1);
+
+    geometry_msgs::Pose target_pose;
+    bool a;
+
+
+    geometry_msgs::PoseStamped currentPose; //curretnPose 에 = operator 없어서.
+    currentPose = arm.getCurrentPose();
+    cout << currentPose<<endl;
+
+
+    currentJointValue[3] -= 3.141592/2;
+    arm.setJointValueTarget(currentJointValue);
+    arm.move();
+    sleep(1);
+
+    // target_pose.position.x = 0.3;
+    // target_pose.position.y = -0.00000807133;
+    // target_pose.position.z = 0.39458;
+
+    // target_pose.orientation.x = -0.710263;
+    // target_pose.orientation.y = 0.703931;
+    // target_pose.orientation.z = -0.00206424;
+    // target_pose.orientation.w = 0.00204172;
+
+    // target_pose.orientation = currentPose.pose.orientation;
+    
+    // sleep(1);
+    // arm.setStartStateToCurrentState();
+    // arm.setPoseTarget(target_pose, "link_tcp");
+
+    // moveit::planning_interface::MoveGroupInterface::Plan my_plan;
+    // moveit_msgs::MotionPlanRequest response;
+
+    // arm.plan(my_plan);
+    // arm.execute(my_plan);
+
+    
+    // arm.move();
+    sleep(1);
 
     return 0;
 }
+*/
+
+
+// 2.
+// xyz이동
+
+/*
+#include <ros/ros.h>
+#include <iostream>
+#include <moveit/move_group_interface/move_group_interface.h>
+#include <geometry_msgs/Pose.h>
+#include <sensor_msgs/JointState.h>
+
+
+using namespace std;
+
+int main(int argc, char **argv){
+    ros::init(argc, argv, "xarm_move");
+    ros::NodeHandle nh;
+    ros::AsyncSpinner spinner(1);
+    spinner.start();
+
+    moveit::planning_interface::MoveGroupInterface arm("xarm5"); 
+    moveit::planning_interface::MoveGroupInterface gripper("xarm_gripper");
+
+    vector<double> currentJointValue=arm.getCurrentJointValues();
+    vector<double> currentJointValue2 = gripper.getCurrentJointValues();
+    
+    arm.setGoalJointTolerance(0.001);
+    arm.setMaxAccelerationScalingFactor(0.2);
+    arm.setMaxVelocityScalingFactor(0.05);
+
+    cout << "go home" << endl;
+    arm.setNamedTarget("home"); 
+    arm.move(); //robot move
+    sleep(1);
+
+    geometry_msgs::Pose target_pose;
+    bool a;
+
+
+    geometry_msgs::PoseStamped currentPose; //curretnPose 에 = operator 없어서.
+    currentPose = arm.getCurrentPose();
+    cout << currentPose<<endl;
+
+
+    target_pose.position.x = 0.3;
+    target_pose.position.y = -0.00000807133;
+    target_pose.position.z = 0.39458;
+
+    target_pose.orientation.x = -0.710263;
+    target_pose.orientation.y = 0.703931;
+    target_pose.orientation.z = -0.00206424;
+    target_pose.orientation.w = 0.00204172;
+
+    // target_pose.orientation = currentPose.pose.orientation;
+    
+    sleep(1);
+    arm.setStartStateToCurrentState();
+    arm.setPoseTarget(target_pose, "link_tcp");
+
+    moveit::planning_interface::MoveGroupInterface::Plan my_plan;
+    moveit_msgs::MotionPlanRequest response;
+
+    arm.plan(my_plan);
+    arm.execute(my_plan);
+
+    
+    // arm.move();
+    sleep(1);
+
+    return 0;
+}
+*/
+
+// 3.
+//gripper
+
+/*
+#include <ros/ros.h>
+#include <iostream>
+#include <moveit/move_group_interface/move_group_interface.h>
+#include <geometry_msgs/Pose.h>
+#include <sensor_msgs/JointState.h>
+
+
+using namespace std;
+
+int main(int argc, char **argv){
+    ros::init(argc, argv, "xarm_move");
+    ros::NodeHandle nh;
+    ros::AsyncSpinner spinner(1);
+    spinner.start();
+
+    moveit::planning_interface::MoveGroupInterface arm("xarm5"); 
+    moveit::planning_interface::MoveGroupInterface gripper("xarm_gripper");
+
+    vector<double> currentJointValue=arm.getCurrentJointValues();
+    vector<double> currentJointValue2 = gripper.getCurrentJointValues();
+    
+    arm.setGoalJointTolerance(0.001);
+    arm.setMaxAccelerationScalingFactor(0.2);
+    arm.setMaxVelocityScalingFactor(0.05);
+
+    cout << "go home" << endl;
+    arm.setNamedTarget("home"); 
+    arm.move(); //robot move
+    sleep(1);
+
+    // geometry_msgs::Pose target_pose;
+    // bool a;
+
+
+    // geometry_msgs::PoseStamped currentPose; //curretnPose 에 = operator 없어서.
+    // currentPose = arm.getCurrentPose();
+    // cout << currentPose << endl;
+
+
+    currentJointValue2[0] = 0.4;
+    cout << "gripper open" << endl;
+    gripper.setJointValueTarget(currentJointValue2);
+    gripper.move();
+    sleep(1);
+
+    currentJointValue2[0] = 0.855211;
+    cout << "gripper close" << endl;
+    gripper.setJointValueTarget(currentJointValue2);
+    gripper.move();
+    sleep(1);
+
+    return 0;
+}
+*/
