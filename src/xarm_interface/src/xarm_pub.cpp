@@ -280,7 +280,7 @@ int main(int argc, char **argv){
 
 
 // 단순히 현재 좌표 출력하는 코드
-/*
+
 #include <ros/ros.h>
 #include <iostream>
 #include <moveit/move_group_interface/move_group_interface.h>
@@ -310,7 +310,7 @@ int main(int argc, char **argv){
 
     return 0;
 }
-*/
+
 
 
 /*
