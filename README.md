@@ -80,7 +80,7 @@ $ rosdep check --from-paths . --ignore-src --rosdistro melodic
 ```
 $ caktin_make
 $ source devel/setup.bash
-$ roslaunch xarm_bringup xarm5_server.launch robot_ip:=192.168.1.204
+$ roslaunch xarm_bringup xarm5_server.launch robot_ip:=192.168.1.210
 
 $ source devel/setup.bash
-$ roslaunch xarm5_gripper_moveit_config realMove_exec.launch robot_ip:=192.168.1.204
+$ roslaunch xarm5_gripper_moveit_config realMove_exec.launch robot_ip:=192.168.1.210
