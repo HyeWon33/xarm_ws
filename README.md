@@ -84,3 +84,10 @@ $ roslaunch xarm_bringup xarm5_server.launch robot_ip:=192.168.1.210
 
 $ source devel/setup.bash
 $ roslaunch xarm5_gripper_moveit_config realMove_exec.launch robot_ip:=192.168.1.210
+```
+  ## 3. gazebo
+  ```
+$ roslaunch xarm5_gripper_moveit_config xarm5_gripper_moveit_gazebo.launch  
+$ roslaunch xarm_gazebo xarm5_beside_table.launch add_gripper:=true  
+$ rosrun PACK_NAME FILE_NAME
+  ```
