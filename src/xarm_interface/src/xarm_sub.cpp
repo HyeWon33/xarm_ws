@@ -391,7 +391,7 @@ void Can::go_catch(){
 void Can::gripper_open(){
     vector<double> currentJointValue2 = gripper->getCurrentJointValues();
     cout << "gripper open" << endl;
-    currentJointValue2[0] = 0.4;
+    currentJointValue2[0] = 0.2;
     gripper->setJointValueTarget(currentJointValue2);
     gripper->move();
     sleep(1);
@@ -399,7 +399,7 @@ void Can::gripper_open(){
 
 void Can::gripper_close(){
     vector<double> currentJointValue2 = gripper->getCurrentJointValues();
-    currentJointValue2[0] = 0.855211;
+    currentJointValue2[0] = 0.5;
     cout << "gripper close" << endl;
     gripper->setJointValueTarget(currentJointValue2);
     gripper->move();
